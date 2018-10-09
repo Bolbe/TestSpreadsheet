@@ -15,7 +15,9 @@ int SpreadSheetModel::comboIndex(int rowIndex, int columnIndex) const {
 }
 
 QStringList SpreadSheetModel::comboModel(int rowIndex, int columnIndex) const {
-    return QStringList() << "Option A" << "Option B" << "Option C";
+    QStringList list;
+    if (columnIndex==2) list << "Option A" << "Option B" << "Option C";
+    return list;
 }
 
 bool SpreadSheetModel::checkable(int rowIndex, int columnIndex) const {
