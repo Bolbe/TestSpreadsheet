@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>spreadsheet/Cell.qml</file>
+        <file>spreadsheet/HeaderMouseArea.qml</file>
+        <file>spreadsheet/HeaderRow.qml</file>
+        <file>spreadsheet/SpreadSheet.qml</file>
+        <file>spreadsheet/SpreadSheetTable.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>
