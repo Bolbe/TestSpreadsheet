@@ -1,5 +1,8 @@
 # TestSpreadsheet
-Test project for spreadsheet submodule
+Test project for spreadsheet submodule available at :
+
+https://github.com/Bolbe/spreadsheet
+
 
 How to use:
 
