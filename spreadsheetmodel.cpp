@@ -1,9 +1,12 @@
 #include "spreadsheetmodel.h"
 
-SpreadSheetModel::SpreadSheetModel()
+SpreadSheetModel::SpreadSheetModel() : SpreadSheet (4, QStringList() << "Column A"
+                                                                     << "Column B"
+                                                                     << "Column C"
+                                                                     << "Column D",
+                                                    QList<double>() << 8 << 8 << 8 << 8, 2)
 {
-    setColumnList(4, QStringList() << "Column A" << "Column B" << "Column C" << "Column D", QList<double>() << 8 << 8 << 8 << 8, 0);
-
+    setHover(SpreadSheet::ROW_HOVER);
 }
 
 QString SpreadSheetModel::text(int rowIndex, int columnIndex) const {
