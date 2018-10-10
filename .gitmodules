@@ -1,3 +1,4 @@
 [submodule "spreadsheet"]
 	path = spreadsheet
-	url = https://github.com/Bolbe/spreadsheet.git
+	url = https://gitlab.com/Gargamel/spreadsheet.git
+
