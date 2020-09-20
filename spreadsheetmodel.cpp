@@ -6,7 +6,7 @@ SpreadSheetModel::SpreadSheetModel() : SpreadSheet (4, QStringList() << "Column 
                                                                      << "Column D",
                                                     QList<double>() << 8 << 8 << 8 << 8, 2)
 {
-    setHover(SpreadSheet::ROW_HOVER);
+    setActionEnabledForColumn(0);
 }
 
 QString SpreadSheetModel::text(int rowIndex, int columnIndex) const {
